@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  background: url("./assets/library-background.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+.container .top {
+  color: white;
+  text-align: center;
+  padding-top: 4rem;
+}
+.container .top h1 {
+  font-size: 2.5rem;
+}
+.container .top h3 {
+  color: #0ae6db;
+}
+.container .bottom {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.bookform {
+  background: rgb(219, 219, 222);
+  padding: 2rem;
+  border-radius: 10px;
+}
+.bookform form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.bookform form label {
+  display: flex;
+  flex-direction: column;
+}
+.bookform form input {
+  width: 350px;
+  padding:  0.8rem;
+  border-radius: 0.2rem;
+  margin-top: 0.2rem;
+}
+.bookform form button {
+  margin-top: 1rem;
+  padding: 0.7rem 1rem;
+  border-radius: 0.2rem;
+  background-color: #198754;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.bookContainer {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100vw;
+  align-items: center;
+}
+
+.bookdisplay {
+  background: rgb(219, 219, 222);
+  height: max-content;
+  padding: 1rem;
+  border-radius: 0.2rem;
+  width: 350px;
+}
+.rowdef {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: start;
+  font-weight: bold;
+}
+
+.rowdef2 {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 1rem;
+}
+
+.delete-book {
+  color: red;
+  cursor: pointer;
+}
